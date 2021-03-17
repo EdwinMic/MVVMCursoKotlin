@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "667086745976",
+    "project_id": "mvvmfirestore-50010",
+    "storage_bucket": "mvvmfirestore-50010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667086745976:android:25477155bd6eb66def188d",
+        "android_client_info": {
+          "package_name": "com.example.mvvmcurso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667086745976-jntd82p9j96j71qkstnc5ln5kp5k5rbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh6oUbEEp77K4z_8MzR1doY37TSKf8ZKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667086745976-jntd82p9j96j71qkstnc5ln5kp5k5rbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667086745976:android:13aa8a37469acde3ef188d",
+        "android_client_info": {
+          "package_name": "com.example.mvvmcursokotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667086745976-jntd82p9j96j71qkstnc5ln5kp5k5rbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh6oUbEEp77K4z_8MzR1doY37TSKf8ZKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667086745976-jntd82p9j96j71qkstnc5ln5kp5k5rbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
