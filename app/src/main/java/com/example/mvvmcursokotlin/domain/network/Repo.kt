@@ -37,7 +37,7 @@ class Repo() {
     }
 
 
-   /* fun getUserDataDataBase(context: Context): LiveData<MutableList<Usuario>>{
+    fun getUserDataDataBase(context: Context): LiveData<MutableList<Usuario>>{
         val mutableData = MutableLiveData<MutableList<Usuario>>()
         FirebaseApp.initializeApp(context)
 
@@ -67,6 +67,6 @@ class Repo() {
         databaseReference.addListenerForSingleValueEvent(eventListenerDepartamentos)
         return mutableData
 
-    }*/
+    }
 
 }
