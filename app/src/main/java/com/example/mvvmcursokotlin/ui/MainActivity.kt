@@ -1,12 +1,11 @@
 package com.example.mvvmcursokotlin.ui
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mvvmcursokotlin.MainAdapter
+import com.example.mvvmcursokotlin.adapter.MainAdapter
 import com.example.mvvmcursokotlin.R
 import com.example.mvvmcursokotlin.viewmodel.MainViewModel
 import com.google.firebase.FirebaseApp

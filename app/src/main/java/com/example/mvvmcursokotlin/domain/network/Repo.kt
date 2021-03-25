@@ -10,10 +10,7 @@ import com.google.firebase.database.*
 import com.google.firebase.firestore.FirebaseFirestore
 
 class Repo() {
-
-
-
-
+    
     //fun getUserData(context: Context): LiveData<MutableList<Usuario>>{
     fun getUserData(): LiveData<MutableList<Usuario>>{
         val mutableData = MutableLiveData<MutableList<Usuario>>()
@@ -37,7 +34,7 @@ class Repo() {
     }
 
 
-   /* fun getUserDataDataBase(context: Context): LiveData<MutableList<Usuario>>{
+    fun getUserDataDataBase(context: Context): LiveData<MutableList<Usuario>>{
         val mutableData = MutableLiveData<MutableList<Usuario>>()
         FirebaseApp.initializeApp(context)
 
@@ -66,7 +63,6 @@ class Repo() {
 
         databaseReference.addListenerForSingleValueEvent(eventListenerDepartamentos)
         return mutableData
-
-    }*/
+    }
 
 }

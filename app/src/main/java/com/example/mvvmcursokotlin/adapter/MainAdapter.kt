@@ -1,4 +1,4 @@
-package com.example.mvvmcursokotlin
+package com.example.mvvmcursokotlin.adapter
 
 import android.content.Context
 import android.util.Log
@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.mvvmcursokotlin.R
+import com.example.mvvmcursokotlin.Usuario
 import kotlinx.android.synthetic.main.item_row.view.*
 
 class MainAdapter(private val context:Context): RecyclerView.Adapter<MainAdapter.MainViewHolder>() {
@@ -36,7 +38,7 @@ class MainAdapter(private val context:Context): RecyclerView.Adapter<MainAdapter
     }
 
     inner class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-        fun bindView(user:Usuario){
+        fun bindView(user: Usuario){
             Glide.with(context).load(user.imageUrl).into(itemView.imgCircle)
             itemView.txtTitulo.text = user.nombre
             itemView.txtDescripcion.text = user.descripcion
