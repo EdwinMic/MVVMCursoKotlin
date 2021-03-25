@@ -63,6 +63,10 @@ class Repo() {
 
         databaseReference.addListenerForSingleValueEvent(eventListenerDepartamentos)
         return mutableData
+<<<<<<< HEAD
+=======
+
+>>>>>>> c86a99b71190d03c11b03595d6626dbd9601ff82
     }
 
 }
